@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment12 - Game OOP</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <!-- Games Sec. Start -->
+    <section class="games">
+      <header>
+        <img src="Style/imgs/wraper.png" class="w-100" alt="game image" />
+      </header>
+      <nav
+        class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-3 px-5 col-md-9 col-lg-9 col-sm-9"
+      >
+        <div class="container">
+          <h5 class="navbar-brand text-white logo-txt mb-0">
+            <img src="Style/imgs/logo-sm.png" alt="logo" class="logo" />
+            GAME LIBRARY
+          </h5>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white nav-txt navLink"
+                  aria-current="page"
+                  href="#"
+                  >MMORPG</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white nav-txt navLink" href="#"
+                  >SHOOTER</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white nav-txt navLink" href="#"
+                  >SAILING</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white nav-txt navLink" href="#"
+                  >PERMADEATH</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white nav-txt navLink" href="#"
+                  >SUPERHERO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white nav-txt navLink" href="#"
+                  >PIXEL</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="main-display container my-5">
+        <section>
+          <div class="row cardDiv"></div>
+        </section>
+      </main>
+    </section>
+
+    <!-- Details Sec. Start -->
+    <section class="details">
+      <div class="container">
+        <header
+          class="mt-5 p-3 d-flex justify-content-between align-items-center"
+        >
+          <h1 class="text-white">Game Details</h1>
+          <button
+            type="button"
+            class="btn-close btn-close-white"
+            aria-label="Close"
+            id="closeBtn"
+          ></button>
+        </header>
+        <div class="row g-4 details-card mt-4"></div>
+      </div>
+    </section>
+
+    <!-- Spinner Start -->
+    <div class="loading text-warning">
+      <span class="loader"></span>
+    </div>
+
+    <!-- Footer Start -->
+    <section class="footer text-center mt-auto py-3">
+      <footer>
+        <div class="copy mt-2 text-white">
+          <div>
+            <span>Copyrights 2024. Designed by</span>
+            <span class="name-span"
+              >Nadia Thabet
+              <a class="heart"></a>
+            </span>
+          </div>
+          <div>
+            <span>All rights reserved.</span>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="JS/index.js" type="module"></script>
+  </body>
+</html>
