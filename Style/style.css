@@ -225,11 +225,6 @@ header h1 {
   padding: auto;
 }
 
-.coma {
-  font-family: var(--nerko-font);
-  font-size: 14px;
-}
-
 .name-span {
   font-family: var(--nerko-font);
   font-size: 25px;
@@ -238,7 +233,6 @@ header h1 {
 
 .heart {
   color: red;
-  text-decoration: none;
 }
 
 .heart::before {
